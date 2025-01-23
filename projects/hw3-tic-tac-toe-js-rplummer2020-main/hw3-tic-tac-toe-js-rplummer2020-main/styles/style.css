@@ -1,0 +1,130 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    color: white;
+    background-color: rgb(255, 255, 255);
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    user-select: none;
+    background-image: url(img/3373555.jpg);
+}
+
+.header {
+    color:antiquewhite;
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-top: 2.4rem;
+    margin-bottom: 0.6rem;
+}
+
+.containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 3rem 0 1rem 0;
+}
+
+.cell {
+    width: 6rem;
+    height: 6rem;
+    border: 6px solid white;
+    margin: -6px 0 0 -6px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 6rem;
+    font-size: 4rem;
+    cursor: pointer;
+    
+}
+
+.cell:active {
+    background-color: lightpink;
+}
+
+
+
+a {
+    text-decoration: underline;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+/*************************************/
+/******        Game Status       *****/
+/*************************************/
+.status {
+    color: white;
+    /* color: orangered; */
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+/*************************************/
+/******       Reload Button      *****/
+/*************************************/
+.restart {
+    color:black;
+    background-color: rgb(231, 231, 231);
+    font-size: 1.2rem;
+    font-weight: 600;
+    order: 1;
+    margin: 2rem;
+    padding: 0.8rem;
+    border: 0;
+    border-radius: 40px;
+    width: 8rem;
+    cursor: pointer;
+}
+
+.restart:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(185, 185, 185);
+    box-shadow: 0 5px 15px rgba(167, 167, 167, 0.4);
+
+}
+
+/*************************************/
+/******         Footer           *****/
+/*************************************/
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+  
+footer > p {
+    color:white;
+    margin: 1.6rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+}
+  
+a,
+a:visited {
+    color: white;
+}
+  
+#heart {
+    font-size: 1.6rem;
+}
+
+.table {
+align-items: center;
+}
+
+.jumbotron {
+    background-color:white !important; 
+    padding: 5em inherit;
+    font-family: fantasy;
+    font-size:x-large;
+}
