@@ -1,0 +1,24 @@
+{
+  "name": "rplummer2020-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"serve -s build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rplummer2020/portfolio-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rplummer2020/portfolio-app/issues"
+  },
+  "homepage": "https://github.com/rplummer2020/portfolio-app#readme",
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}
